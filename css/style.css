@@ -1,17 +1,23 @@
 header.myHeader{
     height: 100px;
-    border: 2px solid green;
     border-bottom: 1px solid grey;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: white;
+}
+header .headerBottom{
+    display: flex;
+    justify-content: space-between;
+}
+
+header .headerBottom a.active {
+    color: dodgerblue;
+    border-bottom: 3px solid dodgerblue;
 }
 footer.myFooter{
     height: 60px;
     border: 2px solid red;
-}
-.headerLogo{
-    border: 2px solid gold;  
-}
-.headerTools{
-    border: 2px solid black;
 }
 .user{
     background-color: rgb(194, 24, 91);
@@ -20,5 +26,15 @@ footer.myFooter{
     border-radius: 50%;
 }
 ul{
-    list-style: none;
+    list-style-type: none;
+}
+header a,footer a{
+    text-decoration: none;
+    color: gray;
+}
+.left{
+    border: 2px solid green;
+}
+.right{
+    border: 2px solid salmon;
 }

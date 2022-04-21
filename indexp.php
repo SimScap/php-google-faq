@@ -34,16 +34,16 @@ $faq = [
 <body>
     <header class="myHeader">
         <div class="row justify-content-between p-3">
-        <div class="headerLogo col-3">
+        <div class="col-6">
         <a href="#"><img class="img-fluid" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" alt=""><span>Privacy e termini</span></a>
         </div>
-        <div class="headerTools col-2">
+        <div class="col-2">
             <ul class="d-flex justify-content-end">
             <li class="mx-3"> <i class="fa-solid fa-bars"></i> </li>
-            <li> <div class="user"></div> </li>                
+            <li> <div class="user text-center text-white"><h4>S</h4></div> </li>                
             </ul>
         </div>
-        <div class="headerBottom">
+        <div class="headerBottom col-8 py-2">
                 <a href="#">Introduzione</a>
                 <a href="#">Norme sulla privacy</a>
                 <a href="#">Termini di servizio</a>
@@ -60,8 +60,23 @@ $faq = [
             <?php } ?>
         </section>
     </main>    
-    <footer class="bg-dark myFooter">
-
+    <footer class="myFooter">
+        <div class="row justify-content-between p-3 px-5">
+        <div class="col-4 d-flex left justify-content-between">
+        <a href="#">Google</a>
+            <a href="#">Tutto su Google</a>
+            <a href="#">Privacy</a>
+            <a href="#">Termini</a>
+        </div>
+        <div class="col-4 d-flex right justify-content-end">
+        <select>
+                <option value="it">Italiano</option>
+                <option value="uk">Inglese</option>
+                <option value="es">Spagnolo</option>
+                <option value="fr">Francese</option>
+            </select>
+        </div>
+        </div>      
     </footer>
 </body>
 </html>
