@@ -38,3 +38,6 @@ header a,footer a{
 .right{
     border: 2px solid salmon;
 }
+body{
+    font-size: .9rem;
+}

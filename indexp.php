@@ -53,12 +53,17 @@ $faq = [
         </div>        
     </header>
     <main>
-    <section class="p-5 tex-center">           
+        <div class="row justify-content-center">
+            <div class="col-9">
+            <section class="p-5 tex-center">           
             <?php foreach ($faq as $data) { ?>
                 <h2><?php echo $data["question"] ?></h2>
                 <?php echo $data["answer"] ?>
             <?php } ?>
         </section>
+            </div>
+        </div>
+    
     </main>    
     <footer class="myFooter">
         <div class="row justify-content-between p-3 px-5">
