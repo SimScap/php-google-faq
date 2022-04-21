@@ -66,14 +66,15 @@ $faq = [
     
     </main>    
     <footer class="myFooter">
-        <div class="row justify-content-between p-3 px-5">
-        <div class="col-4 d-flex left justify-content-between">
+        <div class="row  p-3 px-5 justify-content-center">
+            <div class="col-9 d-flex justify-content-between">
+            <div class="col-6 d-flex left justify-content-between">
         <a href="#">Google</a>
             <a href="#">Tutto su Google</a>
             <a href="#">Privacy</a>
             <a href="#">Termini</a>
         </div>
-        <div class="col-4 d-flex right justify-content-end">
+        <div class="col-3 d-flex right justify-content-end">
         <select>
                 <option value="it">Italiano</option>
                 <option value="uk">Inglese</option>
@@ -81,6 +82,7 @@ $faq = [
                 <option value="fr">Francese</option>
             </select>
         </div>
+        </div>       
         </div>      
     </footer>
 </body>
