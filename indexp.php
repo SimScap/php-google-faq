@@ -35,7 +35,7 @@ $faq = [
     <header class="myHeader mb-5">
         <div class="row justify-content-between p-3">
         <div class="col-6">
-        <a href="#"><img class="img-fluid" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" alt=""><span>Privacy e termini</span></a>
+        <a href="#"><img class="img-fluid" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_74x24dp.png" alt=""><span class="fs-5 align-bottom">Privacy e termini</span></a>
         </div>
         <div class="col-2">
             <ul class="d-flex justify-content-end">
