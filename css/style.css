@@ -17,7 +17,6 @@ header .headerBottom a.active {
 }
 footer.myFooter{
     height: 60px;
-    border: 2px solid red;
 }
 .user{
     background-color: rgb(194, 24, 91);
@@ -30,14 +29,11 @@ ul{
 }
 header a,footer a{
     text-decoration: none;
-    color: gray;
-}
-.left{
-    border: 2px solid green;
-}
-.right{
-    border: 2px solid salmon;
+    color: grey;
 }
 body{
     font-size: .9rem;
+}
+ol li{
+    margin-bottom: 1.4rem;
 }
